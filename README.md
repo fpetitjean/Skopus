@@ -24,4 +24,8 @@ The code in `src` is provided under GLP License version 3.
 Datasets are provided for reproducibility and without any license. 
 
 # Running
-Package `demo` contains runnable examples (downloading datasets from github directly so everything is automatic)
+Simply call
+```
+java -Xmx1g InterestingnessMeasureMain <dataset> <output> -i2 -m1 -k100
+```
+
