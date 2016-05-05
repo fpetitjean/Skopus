@@ -17,6 +17,8 @@ When using this repository, please cite:
   year      = {2016}
 }
 ```
+Note the paper is available [here](Skopus-paper.pdf)
+
 
 # Copyright
 The code in `src` is provided under GLP License version 3. 
