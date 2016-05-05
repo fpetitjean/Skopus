@@ -17,7 +17,7 @@ When using this repository, please cite:
   year      = {2016}
 }
 ```
-Note the paper is available [here](Skopus-DMKD.pdf)
+Note the paper is available [here](http://francois-petitjean.com/Research/Petitjean2016-Skopus.pdf)
 
 
 # Copyright
