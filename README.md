@@ -11,9 +11,9 @@ When using this repository, please cite:
   author    = {Petitjean, Francois and Li, Tao and Tatti, Nikolaj and Webb, Geoffrey I.},
   title     = {Skopus: Mining top-k sequential patterns under Leverage},
   journal   = {Data Mining and Knowledge Discovery},
-  volume    = {1},
-  number    = {1},
-  pages     = {1--25},
+  volume    = {30},
+  number    = {5},
+  pages     = {1086--1111},
   year      = {2016}
 }
 ```
