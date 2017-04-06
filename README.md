@@ -26,14 +26,21 @@ The code in `src` is provided under GLP License version 3.
 Datasets are provided for reproducibility and without any license. 
 
 # Running
-From where you have build the project, simply call
+Skopus requires Java 8; easiest way to build it is to import it in Eclipse. Manually, you'll have to do something like:
 ```
+cd Skopus
+mkdir bin
+javac -d bin/ src/**/*
+```
+Then, from the binary directory, simply call
+```
+cd bin
 java -Xmx1g skopus.InterestingnessMeasureMain <dataset> <output-folder> -i2 -m1 -k100
 ```
 The parameters are: 
 ```
 -i<number>: the interestingness measure (1 for support, 2 for leverage [to be used by default])
--m<number>: m-value for the smoothing of support (1 is Lapace, 0 is MLE)
+-m<number>: m-value for the smoothing of support (1 is Lapace [to be used by default], 0 is MLE)
 -k<number>: top-"how-many" patterns you want to extract
 -l<number>: maximum length of the patterns
 ```
