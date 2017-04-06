@@ -49,5 +49,7 @@ If you want have a large dataset and/or want to speed up the computation, you ca
 ```
 java -Xmx1g skopus.InterestingnessMeasureMain <dataset> <output> -i2 -m1 -k100 -l5
 ```
+# Data format
+Example datasets are given in the `data` subfolder. Basically, each line contains one sequence, and the items are separated by spaces. Items can only be given in terms of letters or numbers (and other characters will be considered as separators). 
 
 
